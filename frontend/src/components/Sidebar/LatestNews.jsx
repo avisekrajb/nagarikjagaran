@@ -1,0 +1,3 @@
+import React from "react"; import {useState,useEffect} from "react"; import HorizontalNewsCard from "../NewsCard/HorizontalNewsCard"; import {getAllNews} from "../../services/newsService";
+
+export default function LatestNews(){const [news,setNews]=useState([]);useEffect(()=>{getAllNews().then(n=>setNews(n.slice(2,6)))},[]);const items=news.slice(2,6);return <div className="side-box"><h3>ताजा अपडेट</h3>{items.map(n=><HorizontalNewsCard key={n.id} news={n}/>)}</div>}

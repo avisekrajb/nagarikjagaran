@@ -1,0 +1,13 @@
+{
+  "watch": ["server.js", "src"],
+  "ext": "js,json",
+  "ignore": [
+    "src/uploads/**",
+    "**/*.log",
+    "node_modules/**",
+    "public/**"
+  ],
+  "delay": 800,
+  "killSignal": "SIGTERM",
+  "gracefulKill": true
+}

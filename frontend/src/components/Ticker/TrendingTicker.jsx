@@ -1,0 +1,1 @@
+import React from "react"; export default function TrendingTicker(){return <div className="container-shell pb-5 text-xs text-slate-500">ट्रेन्डिङ: <span className="font-semibold text-slate-800">काठमाडौं</span> <span>•</span> <span className="font-semibold text-slate-800">पर्यटन</span> <span>•</span> <span className="font-semibold text-slate-800">खेलकुद</span></div>}

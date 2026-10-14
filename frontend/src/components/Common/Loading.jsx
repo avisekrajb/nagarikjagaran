@@ -1,0 +1,1 @@
+import React from "react"; export default function Loading(){return <div className="py-16 text-center"><div className="mx-auto h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-brand-600"/><p className="mt-3 text-sm text-slate-500">लोड हुँदैछ...</p></div>}

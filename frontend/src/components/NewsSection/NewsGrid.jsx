@@ -1,0 +1,1 @@
+import React from "react"; import NewsCard from "../NewsCard/NewsCard"; export default function NewsGrid({news=[]}){return <div className="grid gap-5 sm:grid-cols-2">{news.map(n=><NewsCard key={n.id} news={n}/>)}</div>}

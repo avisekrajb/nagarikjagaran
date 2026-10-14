@@ -1,0 +1,1 @@
+import React from "react"; export default function EmptyState({text="कुनै समाचार भेटिएन।"}){return <div className="rounded-2xl border border-dashed p-12 text-center text-slate-500">{text}</div>}

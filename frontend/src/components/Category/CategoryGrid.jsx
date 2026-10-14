@@ -1,0 +1,1 @@
+import React from "react"; import NewsGrid from "../NewsSection/NewsGrid"; export default function CategoryGrid({news}){return <NewsGrid news={news}/>;}

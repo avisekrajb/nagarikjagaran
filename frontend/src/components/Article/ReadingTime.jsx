@@ -1,0 +1,1 @@
+import React from "react"; export default function ReadingTime({article}){return <span>पढ्न लाग्ने समय: {article.readingTime}</span>}

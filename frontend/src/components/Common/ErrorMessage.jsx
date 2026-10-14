@@ -1,0 +1,1 @@
+import React from "react"; export default function ErrorMessage(){return <div className="rounded-2xl bg-blue-50 p-8 text-center text-brand-700">समाचार लोड गर्न समस्या भयो।</div>}

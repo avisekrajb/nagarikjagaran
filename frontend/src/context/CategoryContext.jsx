@@ -1,0 +1,1 @@
+import {createContext,useContext} from "react"; const C=createContext(null); export const CategoryProvider=({children})=><C.Provider value={{}}>{children}</C.Provider>; export const useCategory=()=>useContext(C);
