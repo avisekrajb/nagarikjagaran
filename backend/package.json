@@ -10,6 +10,7 @@
     "compress:check": "node scripts/compress-images.js --check"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^2.4.3",
     "compression": "^1.8.2",
     "cors": "^2.8.5",
